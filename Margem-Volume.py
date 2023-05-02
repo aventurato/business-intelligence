@@ -1,3 +1,7 @@
+# ----- CARREGANDO DADOS ----- #
+df_copa = pd.read_excel('Base Copa Margem.XLSX')
+
+
 # ----- LIMPEZA (RETIRANDO COLUNAS) ----- #
 df_copa.drop(['Nº documento refer.', 'Ordem do cliente', 'Item ord.cliente', 'Exercício', 'Equipe de vendas', 'Escritório de vendas', 
               'Denominação.1', 'Local expedição/recebimento', 'Código da cidade', 'Grupo de preço', 'BANDEIRA', 'Unid.medida básica', 
